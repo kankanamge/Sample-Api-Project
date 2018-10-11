@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Sandya
+*/
+
+.form {
+    width: 750px;
+    margin: 16px auto;
+    font-size: 16px;
+    border:#28d solid 1px;
+    margin-left: 450px;
+    margin-right: 50px;
+    margin-top: -140px
+}
+
+/* Reset top and bottom margins from certain elements */
+.form-header,
+.form p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.form-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #28d;
+}
+
+.form-header {
+    background: #28d;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.form-container {
+    background: #ebebeb;
+    padding: 12px;
+    /*border:#456 solid 2px;*/
+}
+
+/* Every row inside .login-container is defined with p tags */
+.form p {
+    padding: 12px;
+}
+
+.form input {
+    width: 60%;
+    height: 30px;
+    /*background-color: #ffffff;*/
+    border: 1px solid #A9A9A9 ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.95em;
+    margin-left: 210px; 
+    margin-top: -20px;
+    font-family: inherit;
+    border-width: 1px;
+    border-style: solid;
+    outline: 0;
+    display: block;
+    /*    display: block;
+    width: 60%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+    margin-left: 210px; margin-top: -20px;
+    height: 30px;
+    margin-top: -20px;*/
+    /*style="width: 300px; height: 30px; margin-left: 210px; margin-top: -20px"*/
+}
+
+.form input[type="text"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+    /*color:  #009926;*/
+}
+
+/* Text fields' focus effect */
+.form input[type="text"]:focus {
+    border-color: #888;
+}
+
+.select{
+    box-sizing: border-box;
+    width: 45%;
+    border-width: 1px;
+    border-style: solid;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+    margin-left: 210px; margin-top: -20px;
+    height: 35px;
+    margin-top: -20px;
+}
+.textarea{
+    box-sizing: border-box;
+    width: 60%;
+    border-width: 1px;
+    border-style: solid;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+    margin-left: 210px; margin-top: -20px;
+    height: 100px;
+    margin-top: -20px;
+}
+
+/* Buttons' focus effect */
+.form input[type="button"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 35px;
+}
+.button{
+    width: 75px !important;
+    height: 35px !important;
+    margin-top: -36px !important; 
+    margin-left: 570px !important;
+    display: inline;
+    font-size: 20px;
+    padding-top: 7px !important;
+}
+.medium-button{
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+
+.form input[type="button"]:hover {
+    background: #17c;
+}
+
+.form-lable{
+    width: 200px; 
+    margin-left: 20px; 
+    font-size: 18px;
+    /*color:#28d;*/
+    color: #000;
+}
+.select-large{
+    width: 60% !important;
+}
+.left-button{
+    width: 100px !important;
+    height: 35px !important;
+    margin-top: 10px !important; 
+    margin-left: 200px !important;
+    display: inline;
+    font-size: 20px;
+    padding-top: 5px !important;
+}
+.right-button{
+    width: 100px !important;
+    height: 35px !important;
+    margin-top: -35px !important; 
+    margin-left: 530px !important;
+    display: inline;
+    font-size: 20px;
+    padding-top: 7px !important;
+}
+/*text align center*/
+.text-align{
+    text-align: left !important;
+}
+.form-div{
+    inline-box-align:  initial;
+    margin-bottom: 20px;
+}
+.form-header{
+    color: white;
+    background-color: #007fff;
+}

@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Sandya
+*/
+#footer_bottom {
+    background-color: #0e639d;
+    padding-top: 13px;
+    padding-bottom: 17px;
+    margin-top:70px;
+}
+#footer_bottom .copyright {
+    text-align: center;
+    font-size: 16px;
+    color: #81ccff;
+}
+#footer_bottom .copyright a {
+    color: #fff;
+    font-size: 19px;
+}
+

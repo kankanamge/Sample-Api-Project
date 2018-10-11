@@ -1,0 +1,30 @@
+/* get rid of those system borders being generated for A tags */
+a:active {
+  outline:none;
+}
+
+:focus {
+  -moz-outline-style:none;
+}
+.tooltip {
+	display: none;
+	height: 204px;
+	width: 310px;
+	font-size: 11px;
+	color: #fff;
+	background-image: url(black_arrow_big.png);
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	margin-top: 33px;
+	margin-left: 0px;
+	z-index: 1000;
+}
+
+/* a .label element inside tooltip */
+.tooltip .label {
+	color:yellow;
+	width:35px;
+}

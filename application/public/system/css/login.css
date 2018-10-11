@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Sandya
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/*body {
+    background: #456;
+    font-family: 'Open Sans', sans-serif;
+}*/
+
+.login {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+    border:#28d solid 1px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: #28d;
+}
+
+.login-header {
+    background: #28d;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.login-container {
+    background: #ebebeb;
+    padding: 12px;
+    /*border:#456 solid 2px;*/
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+    padding: 12px;
+}
+
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.login input[type="username"],
+.login input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="username"]:focus,
+.login input[type="password"]:focus {
+    border-color: #888;
+}
+
+.login input[type="button"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login input[type="button"]:hover {
+    background: #17c;
+}
+
+/* Buttons' focus effect */
+.login input[type="button"]:focus {
+    border-color: #05a;
+}
+.login-lable{
+    display: none; 
+    margin-left: 30px; 
+    color: red;
+}
+
+.login_home {
+  font-family: 'arial black';
+  color: #FFFFFF !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 5px #7DD4FF;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 11px 24px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -ms-linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#63B8EE), to(#468CCF));
+  background: -moz-linear-gradient(top,  #63B8EE,  #468CCF);
+}
+.login_home:hover {
+  color: #FFFFFF !important;
+  background: #FFFFFF;
+  background: linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+  background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+}

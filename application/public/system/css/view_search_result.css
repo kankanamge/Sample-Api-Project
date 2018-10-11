@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Sandya
+*/
+
+td{
+    text-align:left;
+    width: 250px !important;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+.form-table-rest tr:nth-child(even) {background: #CCC}
+.form-table-rest tr:nth-child(odd) {background: #FFF}
